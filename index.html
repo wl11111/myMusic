@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<audio src=""  id="ad"></audio>
+			<div class="bg1"> 
+				<div class="header">
+					<h2 class="fl">
+						<a href="javascript:;" class="logo"></a>
+					</h2>
+					<input type="text" name="" id="" class="search" value=""/>
+					<input type="button" name="" id="" class="btn" />
+					<div class="header-right">
+						<a href="javascript:;" class="userName fl">~虾小米</a>
+						<a href="javascript:;" class="portrait fl"></a>
+					</div>
+				</div>
+			</div>
+			<div class="content clearfix">
+				<ul class="nav fl">
+					<li>
+						<a href="javascript:;" id="musicing">正在播放</a>
+					</li>
+					<li>
+						<a href="javascript:;" id="musiced">播放历史</a>
+					</li>
+					<li>
+						<a href="javascript:;" id="shoucang">我收藏的单曲</a>
+					</li>
+					<li></li>
+					<li></li>
+				</ul>
+				
+				<div class="center fl">
+					<div class="center-top clearfix">
+						<div class="fl">
+							<a>歌曲</a><span id="numm"></span>
+						</div>
+						<div class="fl">
+							<a>演唱者</a>
+						</div>
+						<div class="fl">
+							<a>专辑</a>
+						</div>
+					</div>
+					<!--<li class="list clearfix">
+						<!--<div class="song fl">
+							<input type="checkbox" name="" id="" class="check" value="" />
+							<span class="number">1.</span>
+							<a href="#" class="song-name">学会转身</a>
+						</div>
+						<div class="singer fl">
+							<a href="#">薛之谦</a>
+						</div>
+						<div class="songs">
+							<a href="#">现场集合</a>
+							<img src="img/5.png"/>
+							<img src="img/8.png"/>
+							<img src="img/9.png"/>
+						</div>
+					</li>-->
+					<!--动态添加-->
+					<div id="info-list">
+						<ul class="center-info"></ul>
+					</div>
+					<div id="scroll-box">
+						<div id="scroll-dray"></div>
+					</div>
+					
+					<div class="pos">
+						<input type="checkbox" name="" id="" class="checkall" value="" />
+						<a class="del" href="javascript:;">
+							<span>删除</span>
+						</a>
+						<a class="like"  href="javascript:;">
+							<span>刷新</span>
+						</a>
+						<!--<a class="add"  href="javascript:;">
+							<span>添加到歌单</span>
+						</a>
+						<a class="more"  href="javascript:;">
+							<span>更多</span>
+						</a>-->
+					</div>
+				</div>
+				<div class="content-right fl">
+					<div class="singer-pic">
+						<!--<img id="singer" src="img/10.png"/>-->
+						
+						<!--留声机-->
+						<div class="flt">
+							<div class="cd-box">
+								<div class="cd-jp">
+									<img id="singer" src=""/>
+								</div>
+								<div class="cd-tou"></div>
+							</div>
+						</div>
+				
+				
+					</div>
+					<!--歌词-->
+					<div id="word">
+						<ul></ul>
+						<div id="pres"></div>
+					</div>
+				</div>
+			</div>
+			<div class="bg2 clearfix">
+				<div class="footer">
+					<div class="footer-left fl">
+						<img src="img/15.png" id="play-prev" class="back"/>
+						<img src="img/pause.png" id="play-begin" class="begin"/>
+						<img src="img/17.png" id="play-next" class="go"/>
+						<img src="img/loopPlay.png" id="play-mode" class="for" title="顺序播放"/>
+					</div>
+					<div class="footer-center fl">
+						<div class="footer-top clearfix">
+							<span class="fl" id="play-sing"></span><a href="#" id="play-singer" class="fl"> -</a>
+							<div class="footer-bottom">
+								<span class="time1" id="cur-time">00:00</span>
+								<div class="line-wrap">
+									<div class="line"><div class="dian1"></div></div>
+								</div>
+								
+								<span class="time2" id="time">00:00</span>
+							</div>
+						</div>
+					</div>
+					<div class="footer-right fl">
+						<img src="img/23.png" id="volume-onOff" class="voice"/>
+						<div class="volume-parentNode">
+							<div class="big" id="total-volume">
+								<div class="dian2" id="play-volume"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="js/singData.js"></script>
+			<script src="js/Mtween2.js"></script>
+			<script src="js/index.js"></script>
+			<script src="js/lrc.js"></script>
+			<script src="js/play.js"></script>
+
+	</body>
+</html>

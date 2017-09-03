@@ -1,0 +1,50 @@
+body{
+	background:#fff;	
+}
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{
+	margin:0;
+	font:14px "";	
+}
+ul,ol,li{
+	margin:0;
+	padding:0;
+	list-style:none;	
+}
+strong,b,h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+}
+i,em{
+	font-style:normal;	
+}
+a{
+	text-decoration:none;
+	color:"";	
+}
+img{
+	border:0;
+	vertical-align:top;	
+}
+input,textarea,select,option,fieldset{
+	margin:0;
+	padding:0;
+	border:0;
+	background:none;
+	vertical-align:top;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;	
+}
+.clearfix{
+	zoom:1;	
+}
+.fl{
+	float:left;	
+}
+.fr{
+	float:right;	
+}
